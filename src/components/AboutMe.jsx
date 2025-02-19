@@ -1,5 +1,5 @@
 import React from "react";
-import aboutMeImg from "../assets/Shasta.png";
+import aboutMeImg from "../assets/shasta-main.jpg";
 import sunset2 from "../assets/sunset2.png";
 
 const AboutMe = () => {
@@ -14,7 +14,7 @@ const AboutMe = () => {
         About Me
       </h1>
       <img
-        className="py-9 rounded-full size-80 lg:size-96 place-self-center"
+        className="py-9  rounded-full w-72 h-72 lg:w-96 lg:h-96 place-self-center overflow-hidden"
         src={aboutMeImg}
         alt="About me"
       />

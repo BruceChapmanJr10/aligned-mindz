@@ -2,6 +2,7 @@ import React from "react";
 import WeightLossBtn from "./WeightLossBtn";
 import SmokingBtn from "./SmokingBtn";
 import PastLifeBtn from "./PastLiftBtn";
+import prices from "../assets/prices.png";
 
 const Services = () => {
   return (
