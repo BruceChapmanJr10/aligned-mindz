@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div id="contact" className="  bg-purple-200 bg-cover">
+    <div id="contact" className="  bg-purple-200 bg-cover pb-5">
       <h1 className="text-orange-700 pt-9 text-center font-primary text-4xl font-bold py-9">
         Contact
       </h1>
@@ -55,13 +55,15 @@ const Form = () => {
             rows="5"
           />
         </div>
-        <button
-          type="submit"
-          className="cursor-pointer mt-4 w-full bg-gradient-to-r from-purple-500 to-orange-800 text-white 
-               md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full "
-        >
-          Submit
-        </button>
+        <div className="flex justify-center pb-5">
+          <button
+            type="submit"
+            className="cursor-pointer bg-gradient-to-r from-purple-500 to-orange-800 text-white 
+               md:inline transform transition-transform duration-300 hover:scale-105 px-6 py-2 rounded-full "
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
